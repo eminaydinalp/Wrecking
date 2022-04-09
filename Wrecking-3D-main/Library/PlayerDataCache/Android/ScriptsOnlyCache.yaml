@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - Explosion
     - FixedJoystick
     - GroundController
-    - GroundDestroyingController
     - PowerUp
     - RestartGame
     - RotateAroundCar
@@ -29,8 +28,6 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -122,25 +119,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3902}
     - Class: 114
-      Script: {instanceID: 4180}
+      Script: {instanceID: 4140}
     - Class: 114
-      Script: {instanceID: 4356}
+      Script: {instanceID: 4182}
     - Class: 114
-      Script: {instanceID: 4510}
+      Script: {instanceID: 4358}
     - Class: 114
-      Script: {instanceID: 4768}
+      Script: {instanceID: 4512}
     - Class: 114
-      Script: {instanceID: 4828}
+      Script: {instanceID: 4770}
     - Class: 114
-      Script: {instanceID: 4922}
+      Script: {instanceID: 4830}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 4924}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5156}
-    - Class: 114
-      Script: {instanceID: 402392}
+      Script: {instanceID: 5106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,7 +327,7 @@ ScriptsOnlyBuild:
     className: ObiParticleCounter
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: d3ac84b9442949ba3b60401e941884d5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Explosion
@@ -884,6 +879,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RestartGame
+  - hash:
+      serializedVersion: 2
       Hash: c5d0dfe2c47901395b2e7c7db42880df
     assemblyName: Obi.dll
     namespaceName: Obi
@@ -1188,13 +1189,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WorldSpaceGravity
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RestartGame
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/DopingHafiza/Desktop/deneme2.apk
+  playerPath: C:/Users/DopingHafiza/Desktop/deneme3.apk
